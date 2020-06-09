@@ -1,0 +1,96 @@
+
+body {
+    background-color: white;
+
+}
+
+.header {
+    height: 80vh;
+    background-image: linear-gradient(to right bottom, rgba(204, 43, 94, 0.8), rgba(117, 58, 136, 0.8)), url("../w.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 68vh, 0 100%);
+}
+
+.header__text {
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 8rem;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row [class^="col-"] {
+    float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+    margin-right: 8rem;
+}
+
+.row .col-1-of-2 {
+    width: calc((100% - 8rem) / 2);
+}
+
+.collapsible {
+    background-image: linear-gradient(90deg , #bdc3c7 50%, #ffc3a0 50%);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-out;
+    background-color: white;
+}
+.collapsableArea{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+hr{
+    background-color: green;
+}
+.children{
+    text-align: center;
+}
