@@ -1,1 +1,3 @@
-# class8
+# class8 resources
+<hr>
+This was created in early starting of covid 19 for my class basically all our teachers used to send the pdfs ppts and other study material on whatsapp only which became very messy as we had just one group for all the subjects and there was no restrictness on the group it was open to all so it was just impossible to find any pdf , images and sometiems the names of scanned files were not changed so I solved the solution in a overcomplicated way i designed this website working with mongoDB and having a proper backend the mongoDB server used to hold the files uploaded in gdrive with description in mongoDB I assigned two three of my friends to mantaint the site I got appreciated by my whole school but later my school shifted to google classroom so this website died.
